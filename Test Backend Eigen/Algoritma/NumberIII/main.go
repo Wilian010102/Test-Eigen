@@ -12,12 +12,12 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 
 	// Insert array input from user
-	fmt.Print("insert array input: ")
+	fmt.Print("insert array input (separate use space): ")
 	inputLine, _ := reader.ReadString('\n')
 	inputArray := strings.Fields(inputLine)
 
 	// Insert array query from user
-	fmt.Print("Insert array query: ")
+	fmt.Print("Insert array query (separate use space): ")
 	queryLine, _ := reader.ReadString('\n')
 	queryArray := strings.Fields(queryLine)
 
