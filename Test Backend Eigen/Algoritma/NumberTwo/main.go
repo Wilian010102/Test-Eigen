@@ -17,5 +17,5 @@ func main() {
 
 	// call function from utils.go
 	longestWord, length := utils.Longest(input)
-	fmt.Printf("Kata terpanjang: %s dengan panjang %d karakter\n", longestWord, length)
+	fmt.Printf("%s %d character\n", longestWord, length)
 }
